@@ -1,0 +1,71 @@
+[
+    {
+        "id": "1",
+        "name": "Chicken Enchiladas",
+        "chef": "Luke Mason",
+        "cuisine": "Mexican",
+        "tt": "1 hour",
+        "at": "1 hour",
+        "steps": [
+            "Boil chicken",
+            "Fry tortillas",
+            "Make enchiladas",
+            "Pour sauce",
+            "Bake",
+            "Serve"
+        ],
+        "background": "Mason family recipe",
+        "image": "enchiladas",
+        "gallery": [
+            "image-1",
+            "image-2",
+            "image-3"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Turkey Crunch Wraps",
+        "chef": "Luke Mason",
+        "cuisine": "Mexican",
+        "tt": "30 minutes",
+        "at": "30 minutes",
+        "steps": [
+            "Cut veggies",
+            "Pan cook turkey",
+            "Pan cook veggies",
+            "Make crunch wrap",
+            "Fry crunch wrap",
+            "Serve"
+        ],
+        "background": "Yale house staple",
+        "image": "crunchwrap",
+        "gallery": [
+            "image-1",
+            "image-2",
+            "image-3"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Chicken Curry",
+        "chef": "Ben Hogan",
+        "cuisine": "Thai",
+        "tt": "4 hours",
+        "at": "30 minutes",
+        "steps": [
+            "Cut veggies",
+            "Saute veggies",
+            "Put food in crockpot",
+            "Serve"
+        ],
+        "background": "Hogan family recipe",
+        "image": "curry",
+        "gallery": [
+            "image-1",
+            "image-2",
+            "image-3"
+        ]
+    }
+]
+
+

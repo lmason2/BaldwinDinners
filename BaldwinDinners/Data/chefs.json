@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name": "Luke Mason",
+        "city": "Scottsdale",
+        "state": "Arizona",
+        "image": "Luke-main"
+    },
+    {
+        "id": "2",
+        "name": "Ben Hogan",
+        "city": "Louisville",
+        "state": "Colorado",
+        "image": "Ben-main"
+    },
+    {
+        "id": "3",
+        "name": "Yacine Guermali",
+        "city": "Camas",
+        "state": "Washington",
+        "image": "Yacine-main"
+    },
+    {
+        "id": "4",
+        "name": "Cullen McEachern",
+        "city": "Seattle",
+        "state": "Washington",
+        "image": "Cullen-main"
+    },
+    {
+        "id": "5",
+        "name": "Sam McCloughan",
+        "city": "Edmonds",
+        "state": "Washington",
+        "image": "Sam-main"
+    },
+    {
+        "id": "6",
+        "name": "Dom Arse",
+        "city": "Portland",
+        "state": "Oregon",
+        "image": "Dom-main"
+    },
+    {
+        "id": "7",
+        "name": "Matt Roberts",
+        "city": "Bellevue",
+        "state": "Washington",
+        "image": "Matt-main"
+    },
+    {
+        "id": "8",
+        "name": "David Connell",
+        "city": "Camas",
+        "state": "Washington",
+        "image": "Dave-main"
+    }
+]

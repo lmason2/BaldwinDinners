@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "name": "Mexican",
+        "image": "mexico-flag"
+    },
+    {
+        "id": "2",
+        "name": "Thai",
+        "image": "thai-flag"
+    }
+]

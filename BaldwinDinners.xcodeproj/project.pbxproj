@@ -11,6 +11,22 @@
 		9A4F9896279467F90008DB01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F9895279467F90008DB01 /* ContentView.swift */; };
 		9A4F9898279467FB0008DB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F9897279467FB0008DB01 /* Assets.xcassets */; };
 		9A4F989B279467FB0008DB01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F989A279467FB0008DB01 /* Preview Assets.xcassets */; };
+		9A4F98A6279469030008DB01 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F98A5279469030008DB01 /* recipes.json */; };
+		9A4F98A827946BAB0008DB01 /* ChefRowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98A727946BAB0008DB01 /* ChefRowListView.swift */; };
+		9A4F98AB27946DBE0008DB01 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98AA27946DBE0008DB01 /* CodableBundleExtension.swift */; };
+		9A4F98AD27946DEF0008DB01 /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98AC27946DEF0008DB01 /* Chef.swift */; };
+		9A4F98B127946E4C0008DB01 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98B027946E4C0008DB01 /* Dish.swift */; };
+		9A4F98B327947BE30008DB01 /* HomeSettingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98B227947BE30008DB01 /* HomeSettingEnum.swift */; };
+		9A4F98B727947E330008DB01 /* chefs.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F98B627947E330008DB01 /* chefs.json */; };
+		9A4F98BB27947EBA0008DB01 /* DishRowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98BA27947EBA0008DB01 /* DishRowListView.swift */; };
+		9A4F98BD279480400008DB01 /* CuisineRowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98BC279480400008DB01 /* CuisineRowListView.swift */; };
+		9A4F98C1279480BF0008DB01 /* Cuisine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98C0279480BF0008DB01 /* Cuisine.swift */; };
+		9A4F98C3279480D90008DB01 /* cuisine.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F98C2279480D90008DB01 /* cuisine.json */; };
+		9A4F98CA279486590008DB01 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98C9279486590008DB01 /* Constant.swift */; };
+		9A4F98CC279488430008DB01 /* ChefDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98CB279488430008DB01 /* ChefDetailView.swift */; };
+		9A4F98CE2794884B0008DB01 /* DishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98CD2794884B0008DB01 /* DishDetailView.swift */; };
+		9A4F98D0279488530008DB01 /* CuisineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98CF279488530008DB01 /* CuisineDetailView.swift */; };
+		9A4F98D22794892E0008DB01 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98D12794892E0008DB01 /* OnBoardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,22 @@
 		9A4F9895279467F90008DB01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A4F9897279467FB0008DB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4F989A279467FB0008DB01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A4F98A5279469030008DB01 /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		9A4F98A727946BAB0008DB01 /* ChefRowListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefRowListView.swift; sourceTree = "<group>"; };
+		9A4F98AA27946DBE0008DB01 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		9A4F98AC27946DEF0008DB01 /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		9A4F98B027946E4C0008DB01 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		9A4F98B227947BE30008DB01 /* HomeSettingEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSettingEnum.swift; sourceTree = "<group>"; };
+		9A4F98B627947E330008DB01 /* chefs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chefs.json; sourceTree = "<group>"; };
+		9A4F98BA27947EBA0008DB01 /* DishRowListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishRowListView.swift; sourceTree = "<group>"; };
+		9A4F98BC279480400008DB01 /* CuisineRowListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineRowListView.swift; sourceTree = "<group>"; };
+		9A4F98C0279480BF0008DB01 /* Cuisine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuisine.swift; sourceTree = "<group>"; };
+		9A4F98C2279480D90008DB01 /* cuisine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cuisine.json; sourceTree = "<group>"; };
+		9A4F98C9279486590008DB01 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9A4F98CB279488430008DB01 /* ChefDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDetailView.swift; sourceTree = "<group>"; };
+		9A4F98CD2794884B0008DB01 /* DishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailView.swift; sourceTree = "<group>"; };
+		9A4F98CF279488530008DB01 /* CuisineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineDetailView.swift; sourceTree = "<group>"; };
+		9A4F98D12794892E0008DB01 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +83,11 @@
 		9A4F9892279467F90008DB01 /* BaldwinDinners */ = {
 			isa = PBXGroup;
 			children = (
-				9A4F9893279467F90008DB01 /* BaldwinDinnersApp.swift */,
-				9A4F9895279467F90008DB01 /* ContentView.swift */,
+				9A4F98A927946DAC0008DB01 /* Utility */,
+				9A4F98A32794680C0008DB01 /* Model */,
+				9A4F98A2279468060008DB01 /* Views */,
+				9A4F98A1279468010008DB01 /* Data */,
+				9A4F98A42794683D0008DB01 /* App */,
 				9A4F9897279467FB0008DB01 /* Assets.xcassets */,
 				9A4F9899279467FB0008DB01 /* Preview Content */,
 			);
@@ -65,6 +100,59 @@
 				9A4F989A279467FB0008DB01 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A4F98A1279468010008DB01 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9A4F98A5279469030008DB01 /* recipes.json */,
+				9A4F98B627947E330008DB01 /* chefs.json */,
+				9A4F98C2279480D90008DB01 /* cuisine.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9A4F98A2279468060008DB01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A4F98A727946BAB0008DB01 /* ChefRowListView.swift */,
+				9A4F98BA27947EBA0008DB01 /* DishRowListView.swift */,
+				9A4F98BC279480400008DB01 /* CuisineRowListView.swift */,
+				9A4F98CB279488430008DB01 /* ChefDetailView.swift */,
+				9A4F98CD2794884B0008DB01 /* DishDetailView.swift */,
+				9A4F98CF279488530008DB01 /* CuisineDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A4F98A32794680C0008DB01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A4F98AC27946DEF0008DB01 /* Chef.swift */,
+				9A4F98B027946E4C0008DB01 /* Dish.swift */,
+				9A4F98C0279480BF0008DB01 /* Cuisine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A4F98A42794683D0008DB01 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9A4F9893279467F90008DB01 /* BaldwinDinnersApp.swift */,
+				9A4F9895279467F90008DB01 /* ContentView.swift */,
+				9A4F98D12794892E0008DB01 /* OnBoardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9A4F98A927946DAC0008DB01 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9A4F98AA27946DBE0008DB01 /* CodableBundleExtension.swift */,
+				9A4F98B227947BE30008DB01 /* HomeSettingEnum.swift */,
+				9A4F98C9279486590008DB01 /* Constant.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4F989B279467FB0008DB01 /* Preview Assets.xcassets in Resources */,
+				9A4F98A6279469030008DB01 /* recipes.json in Resources */,
 				9A4F9898279467FB0008DB01 /* Assets.xcassets in Resources */,
+				9A4F98C3279480D90008DB01 /* cuisine.json in Resources */,
+				9A4F98B727947E330008DB01 /* chefs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +228,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4F98BD279480400008DB01 /* CuisineRowListView.swift in Sources */,
+				9A4F98AB27946DBE0008DB01 /* CodableBundleExtension.swift in Sources */,
+				9A4F98A827946BAB0008DB01 /* ChefRowListView.swift in Sources */,
+				9A4F98D22794892E0008DB01 /* OnBoardingView.swift in Sources */,
 				9A4F9896279467F90008DB01 /* ContentView.swift in Sources */,
+				9A4F98B127946E4C0008DB01 /* Dish.swift in Sources */,
+				9A4F98AD27946DEF0008DB01 /* Chef.swift in Sources */,
+				9A4F98C1279480BF0008DB01 /* Cuisine.swift in Sources */,
+				9A4F98B327947BE30008DB01 /* HomeSettingEnum.swift in Sources */,
+				9A4F98CA279486590008DB01 /* Constant.swift in Sources */,
+				9A4F98CE2794884B0008DB01 /* DishDetailView.swift in Sources */,
 				9A4F9894279467F90008DB01 /* BaldwinDinnersApp.swift in Sources */,
+				9A4F98BB27947EBA0008DB01 /* DishRowListView.swift in Sources */,
+				9A4F98D0279488530008DB01 /* CuisineDetailView.swift in Sources */,
+				9A4F98CC279488430008DB01 /* ChefDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
