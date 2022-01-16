@@ -16,11 +16,9 @@ struct BaldwinDinnersApp: App {
         WindowGroup {
             if isOnboarding {
                 OnBoardingView()
-                    .preferredColorScheme(.dark)
             }
             else {
                 ContentView()
-                    .preferredColorScheme(.light)
             }
         }
     }
