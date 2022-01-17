@@ -32,7 +32,7 @@ struct ChefDetailView: View {
             
             List {
                 ForEach(recipes.filter {$0.chef == chef.name}) { recipe in
-                    NavigationLink(destination: DishDetailView()) {
+                    NavigationLink(destination: DishDetailView(dish: recipe)) {
                         DishRowListView(dish: recipe)
                     }
                 }

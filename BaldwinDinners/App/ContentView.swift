@@ -31,14 +31,14 @@ struct ContentView: View {
                     }
                     else if setting == .recipes {
                         ForEach(recipes.shuffled()) {recipe in
-                            NavigationLink(destination: DishDetailView()) {
+                            NavigationLink(destination: DishDetailView(dish: recipe)) {
                                 DishRowListView(dish: recipe)
                             }
                         } //: LOOP
                     }
                     else {
                         ForEach(cuisines.shuffled()) {cuisine in
-                            NavigationLink(destination: CuisineDetailView()) {
+                            NavigationLink(destination: CuisineDetailView(cuisine: cuisine, recipes: recipes)) {
                                 CuisineRowListView(cuisine: cuisine)
                             }
                         } //: LOOP

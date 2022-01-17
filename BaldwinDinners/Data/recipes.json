@@ -1,29 +1,6 @@
 [
     {
         "id": "1",
-        "name": "Chicken Enchiladas",
-        "chef": "Luke Mason",
-        "cuisine": "Mexican",
-        "tt": "1 hour",
-        "at": "1 hour",
-        "steps": [
-            "Boil chicken",
-            "Fry tortillas",
-            "Make enchiladas",
-            "Pour sauce",
-            "Bake",
-            "Serve"
-        ],
-        "background": "Mason family recipe",
-        "image": "enchiladas",
-        "gallery": [
-            "image-1",
-            "image-2",
-            "image-3"
-        ]
-    },
-    {
-        "id": "2",
         "name": "Turkey Crunch Wraps",
         "chef": "Luke Mason",
         "cuisine": "Mexican",
@@ -39,6 +16,29 @@
         ],
         "background": "Yale house staple",
         "image": "crunchwrap",
+        "gallery": [
+            "crunchwrap",
+            "crunchwrap-2",
+            "crunchwrap-3"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Chicken Enchiladas",
+        "chef": "Luke Mason",
+        "cuisine": "Mexican",
+        "tt": "1 hour",
+        "at": "1 hour",
+        "steps": [
+            "Boil chicken",
+            "Fry tortillas",
+            "Make enchiladas",
+            "Pour sauce",
+            "Bake",
+            "Serve"
+        ],
+        "background": "Mason family recipe",
+        "image": "enchiladas",
         "gallery": [
             "image-1",
             "image-2",

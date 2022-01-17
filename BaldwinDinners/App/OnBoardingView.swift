@@ -15,24 +15,42 @@ struct OnBoardingView: View {
     
     // MARK: - BODY
     var body: some View {
-        VStack(alignment: .center) {
-            Text("Baldwin Dinners")
-                .font(.system(size: 48, weight: .bold, design: .rounded))
-                .padding()
+        VStack(spacing: 10) {
+            Image(colorScheme == .dark ? "logo-white" : "logo-black")
+                .resizable()
+                .scaledToFit()
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.accentColor, lineWidth: 5))
+                .frame(width: 250, height: 250)
             
-            Button(action: {
-                isOnboarding = false
-            }, label: {
-                Image(systemName: "flame")
-                    .font(.system(size: 50))
-                    .foregroundColor(colorScheme == .dark ? .white : .black)
-                    .padding(.vertical, 10)
-                    .padding(.horizontal, 50)
-                    .background(
-                        Capsule()
-                            .strokeBorder(Color.accentColor, lineWidth: 4)
-                    )
-            })
+            HStack {
+                Button(action: {
+                    let url = URL(string: "instagram://user?username=baldwindinners")!
+                            let application = UIApplication.shared
+                            if application.canOpenURL(url) {
+                                application.open(url)
+                            } else {
+                                application.open(URL(string: "https://www.instagram.com/baldwindinners/")!)
+                            }
+                }, label: {
+                    Image("insta")
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                })
+                
+                Button(action: {
+                    isOnboarding = false
+                }, label: {
+                    Image(systemName: "arrow.right")
+                        .foregroundColor(Color("Gonzaga-Blue"))
+                        .padding(.vertical, 10)
+                        .padding(.horizontal, 30)
+                        .background(
+                            Capsule().strokeBorder(Color.accentColor, lineWidth: 1.25)
+                        )
+                })
+            }
+            
         }
         .scaleEffect(scale)
         .onAppear {
@@ -42,14 +60,17 @@ struct OnBoardingView: View {
                 scale = 1
             }
         }
-        
     }
 }
 
 // MARK: - BODY
 struct OnBoardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnBoardingView()
-            .preferredColorScheme(.dark)
+        Group {
+            OnBoardingView()
+                .preferredColorScheme(.light)
+            OnBoardingView()
+                .preferredColorScheme(.dark)
+        }
     }
 }

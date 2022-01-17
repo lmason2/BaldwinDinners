@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A015E6D2794D6F400F97DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9A4F9890279467F90008DB01 /* BaldwinDinners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaldwinDinners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4F9893279467F90008DB01 /* BaldwinDinnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaldwinDinnersApp.swift; sourceTree = "<group>"; };
 		9A4F9895279467F90008DB01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		9A4F9892279467F90008DB01 /* BaldwinDinners */ = {
 			isa = PBXGroup;
 			children = (
+				9A015E6D2794D6F400F97DCE /* Info.plist */,
 				9A4F98A927946DAC0008DB01 /* Utility */,
 				9A4F98A32794680C0008DB01 /* Model */,
 				9A4F98A2279468060008DB01 /* Views */,
@@ -376,6 +378,7 @@
 				DEVELOPMENT_TEAM = 32GNF43U3H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaldwinDinners/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -405,6 +408,7 @@
 				DEVELOPMENT_TEAM = 32GNF43U3H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaldwinDinners/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
