@@ -18,10 +18,11 @@ struct CuisineDetailView: View {
             }
             .padding()
             .frame(maxWidth: .infinity)
-            .background(Color.white)
+            .background(Color("Classic").colorInvert())
             .clipped()
             .cornerRadius(10)
             .shadow(color: Color.gray, radius: 10, x: 0, y: 0)
+            .padding(.horizontal, 10)
             
             Image(cuisine.image)
                 .resizable()

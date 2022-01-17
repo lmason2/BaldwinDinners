@@ -22,35 +22,25 @@ struct DishDetailView: View {
             }
             .tabViewStyle(PageTabViewStyle())
             .frame(maxWidth: 300, minHeight: 148, idealHeight: 168, maxHeight: 180)
-            .overlay(Rectangle().stroke(Color("Classic"), lineWidth: 3))
+            .cornerRadius(10)
+            .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color("Classic"), lineWidth: 3))
             .clipped()
             .shadow(color: Color.gray, radius: 5, x: 0, y: 0)
+            
             
             Text(dish.name)
                 .foregroundColor(.accentColor)
                 .font(.system(size: 24, weight: .bold, design: .rounded))
             
-            Divider()
-        
-            ForEach(dish.steps, id: \.self) { step in
-                HStack {
-                    Text(step)
-                        .font(.system(size: 18, weight: .semibold, design: .rounded))
-                    
-                    Spacer()
-                    
-                    Image(systemName: "chevron.down")
-                }
-                .padding(.vertical, 5)
-                .padding(.horizontal, 10)
-                
-                
-                Divider()
+            List(dish.instructions, children: \.substeps) { step in
+                StepRowView(step: step, isOn: false)
+                    .padding(.vertical, 5)
+                    .padding(.horizontal, 10)
             }
-            Spacer()
             
         }
         .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

@@ -14,7 +14,7 @@ struct Dish: Codable, Identifiable {
     let cuisine: String
     let tt: String
     let at: String
-    let steps: [String]
+    let instructions: [Instructions]
     let background: String
     let image: String
     let gallery: [String]

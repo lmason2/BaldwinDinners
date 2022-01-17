@@ -6,13 +6,91 @@
         "cuisine": "Mexican",
         "tt": "30 minutes",
         "at": "30 minutes",
-        "steps": [
-            "Cut veggies",
-            "Pan cook turkey",
-            "Pan cook veggies",
-            "Make crunch wrap",
-            "Fry crunch wrap",
-            "Serve"
+        "instructions": [
+            {
+                "step": "Cut veggies",
+                "substeps": [
+                    {
+                        "step": "Cut tomatoes",
+                    },
+                    {
+                        "step": "Cut onions"
+                    },
+                    {
+                        "step": "Prep spinach"
+                    },
+                    {
+                        "step": "Cut jalepenos"
+                    }
+                ]
+            },
+            {
+                "step": "Pan cook turkey",
+                "substeps": [
+                    {
+                        "step": "Set pan to medium"
+                    },
+                    {
+                        "step": "Throw turkey in"
+                    },
+                    {
+                        "step": "Sprinkle with paprika, cumin, and chili powder"
+                    },
+                    {
+                        "step": "Cook until a little bit of pink then turn down stove"
+                    }
+                ]
+            },
+            {
+                "step": "Pan cook veggies",
+                "substeps": [
+                    {
+                        "step": "Throw veggies in with turkey on low"
+                    },
+                    {
+                        "step": "Cook until cripsed edges"
+                    }
+                ]
+            },
+            {
+                "step": "Make crunchwrap",
+                "substeps": [
+                    {
+                        "step": "Set veggies down on tortilla"
+                    },
+                    {
+                        "step": "Place tostada on top"
+                    },
+                    {
+                        "step": "Place meat and cheese on top of tostada"
+                    },
+                    {
+                        "step": "Fold tortilla over"
+                    }
+                ]
+            },
+            {
+                "step": "Fry crunchwrap",
+                "substeps": [
+                    {
+                        "step": "Set stove on medium with a bit of olive oil in the pan"
+                    },
+                    {
+                        "step": "Lay the crunchwrap folded side down for 30 seconds"
+                    },
+                    {
+                        "step": "Flip for another 30 seconds"
+                    }
+                ]
+            },
+            {
+                "step": "Serve",
+                "substeps": [
+                    {
+                        "step": "Add salsa or sour cream to finish off your crunchwrap"
+                    }
+                ]
+            }
         ],
         "background": "Yale house staple",
         "image": "crunchwrap",
@@ -29,13 +107,25 @@
         "cuisine": "Mexican",
         "tt": "1 hour",
         "at": "1 hour",
-        "steps": [
-            "Boil chicken",
-            "Fry tortillas",
-            "Make enchiladas",
-            "Pour sauce",
-            "Bake",
-            "Serve"
+        "instructions": [
+            {
+                "step": "Boil chicken"
+            },
+            {
+                "step": "Fry tortillas"
+            },
+            {
+                "step": "Make enchiladas"
+            },
+            {
+                "step": "Pour sauce"
+            },
+            {
+                "step": "Bake"
+            },
+            {
+                "step": "Serve"
+            }
         ],
         "background": "Mason family recipe",
         "image": "enchiladas",
@@ -52,11 +142,19 @@
         "cuisine": "Thai",
         "tt": "4 hours",
         "at": "30 minutes",
-        "steps": [
-            "Cut veggies",
-            "Saute veggies",
-            "Put food in crockpot",
-            "Serve"
+        "instructions": [
+            {
+                "step": "Cut veggies"
+            },
+            {
+                "step": "Saute veggies"
+            },
+            {
+                "step": "Put food in crockpot"
+            },
+            {
+                "step": "Serve"
+            }
         ],
         "background": "Hogan family recipe",
         "image": "curry",

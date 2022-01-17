@@ -59,21 +59,21 @@ struct ContentView: View {
                             setting = .chef
                             feedback.notificationOccurred(.success)
                         }, label: {
-                            Image(systemName: "person")
+                            Image(systemName: setting == .chef ? "person.fill" : "person")
                         }) //: PERSON
                         
                         Button(action: {
                             setting = .recipes
                             feedback.notificationOccurred(.success)
                         }, label: {
-                            Image(systemName: "leaf")
+                            Image(systemName: setting == .recipes ? "leaf.fill" : "leaf")
                         }) //: LEAF
                         
                         Button(action: {
                             setting = .cuisine
                             feedback.notificationOccurred(.success)
                         }, label: {
-                            Image(systemName: "globe.americas")
+                            Image(systemName: setting == .cuisine ? "globe.americas.fill" : "globe.americas")
                         }) //: GLOBE
                     }
                 } //: TOOLBARITEM

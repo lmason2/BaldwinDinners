@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A015E6F2795AB0A00F97DCE /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A015E6E2795AB0A00F97DCE /* Instructions.swift */; };
+		9A015E722795B01B00F97DCE /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A015E712795B01B00F97DCE /* CheckboxStyle.swift */; };
+		9A015E782795B17800F97DCE /* StepRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A015E772795B17800F97DCE /* StepRowView.swift */; };
 		9A4F9894279467F90008DB01 /* BaldwinDinnersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F9893279467F90008DB01 /* BaldwinDinnersApp.swift */; };
 		9A4F9896279467F90008DB01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F9895279467F90008DB01 /* ContentView.swift */; };
 		9A4F9898279467FB0008DB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F9897279467FB0008DB01 /* Assets.xcassets */; };
@@ -31,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		9A015E6D2794D6F400F97DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9A015E6E2795AB0A00F97DCE /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		9A015E712795B01B00F97DCE /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		9A015E772795B17800F97DCE /* StepRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepRowView.swift; sourceTree = "<group>"; };
 		9A4F9890279467F90008DB01 /* BaldwinDinners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaldwinDinners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4F9893279467F90008DB01 /* BaldwinDinnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaldwinDinnersApp.swift; sourceTree = "<group>"; };
 		9A4F9895279467F90008DB01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A015E702795B00F00F97DCE /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				9A015E712795B01B00F97DCE /* CheckboxStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		9A4F9887279467F90008DB01 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +98,7 @@
 		9A4F9892279467F90008DB01 /* BaldwinDinners */ = {
 			isa = PBXGroup;
 			children = (
+				9A015E702795B00F00F97DCE /* Style */,
 				9A015E6D2794D6F400F97DCE /* Info.plist */,
 				9A4F98A927946DAC0008DB01 /* Utility */,
 				9A4F98A32794680C0008DB01 /* Model */,
@@ -123,6 +138,7 @@
 				9A4F98CB279488430008DB01 /* ChefDetailView.swift */,
 				9A4F98CD2794884B0008DB01 /* DishDetailView.swift */,
 				9A4F98CF279488530008DB01 /* CuisineDetailView.swift */,
+				9A015E772795B17800F97DCE /* StepRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +149,7 @@
 				9A4F98AC27946DEF0008DB01 /* Chef.swift */,
 				9A4F98B027946E4C0008DB01 /* Dish.swift */,
 				9A4F98C0279480BF0008DB01 /* Cuisine.swift */,
+				9A015E6E2795AB0A00F97DCE /* Instructions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,6 +249,7 @@
 			files = (
 				9A4F98BD279480400008DB01 /* CuisineRowListView.swift in Sources */,
 				9A4F98AB27946DBE0008DB01 /* CodableBundleExtension.swift in Sources */,
+				9A015E6F2795AB0A00F97DCE /* Instructions.swift in Sources */,
 				9A4F98A827946BAB0008DB01 /* ChefRowListView.swift in Sources */,
 				9A4F98D22794892E0008DB01 /* OnBoardingView.swift in Sources */,
 				9A4F9896279467F90008DB01 /* ContentView.swift in Sources */,
@@ -244,6 +262,8 @@
 				9A4F9894279467F90008DB01 /* BaldwinDinnersApp.swift in Sources */,
 				9A4F98BB27947EBA0008DB01 /* DishRowListView.swift in Sources */,
 				9A4F98D0279488530008DB01 /* CuisineDetailView.swift in Sources */,
+				9A015E782795B17800F97DCE /* StepRowView.swift in Sources */,
+				9A015E722795B01B00F97DCE /* CheckboxStyle.swift in Sources */,
 				9A4F98CC279488430008DB01 /* ChefDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
