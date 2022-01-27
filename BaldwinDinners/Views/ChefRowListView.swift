@@ -17,7 +17,7 @@ struct ChefRowListView: View {
         HStack(spacing: 20) {
             Image(chef.image)
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
                 .clipShape(Circle())
                 .overlay(Circle().stroke(Color("Gonzaga-Blue"), lineWidth: 3))
                 .frame(width: 80, height: 80, alignment: .center)

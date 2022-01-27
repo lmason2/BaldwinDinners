@@ -32,6 +32,10 @@ struct DishDetailView: View {
                 .foregroundColor(.accentColor)
                 .font(.system(size: 24, weight: .bold, design: .rounded))
             
+            Text(dish.background)
+                .foregroundColor(Color("Classic"))
+                .font(.system(size: 18, weight: .light, design: .rounded))
+            
             List(dish.instructions, children: \.substeps) { step in
                 StepRowView(step: step, isOn: false)
                     .padding(.vertical, 5)

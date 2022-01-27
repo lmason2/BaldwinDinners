@@ -28,7 +28,7 @@ struct ChefDetailView: View {
                 .frame(width: 150, height: 150)
             
             Text("\(chef.city), \(chef.state)")
-                .font(.subheadline)
+                .font(.system(size: 24, weight: .semibold, design: .rounded))
             
             List {
                 ForEach(recipes.filter {$0.chef == chef.name}) { recipe in

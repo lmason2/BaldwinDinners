@@ -8,24 +8,62 @@
         "at": "30 minutes",
         "instructions": [
             {
-                "step": "Cut veggies",
+                "step": "Ingredients",
                 "substeps": [
                     {
-                        "step": "Cut tomatoes",
+                        "step": "Olive Oil",
                     },
                     {
-                        "step": "Cut onions"
+                        "step": "Tomatoes"
                     },
                     {
-                        "step": "Prep spinach"
+                        "step": "Spinach/Lettuce"
                     },
                     {
-                        "step": "Cut jalepenos"
+                        "step": "Red/White Onion"
+                    },
+                    {
+                        "step": "Jalepenos (Optional)"
+                    },
+                    {
+                        "step": "Ground Turkey"
+                    },
+                    {
+                        "step": "Paprika"
+                    },
+                    {
+                        "step": "Cumin"
+                    },
+                    {
+                        "step": "Chili Powder"
+                    },
+                    {
+                        "step": "Tostadas"
+                    },
+                    {
+                        "step": "Extra Large Tortillas"
+                    },
+                    {
+                        "step": "Cheese"
                     }
                 ]
             },
             {
-                "step": "Pan cook turkey",
+                "step": "Prep Veggies",
+                "substeps": [
+                    {
+                        "step": "Dice tomatoes",
+                    },
+                    {
+                        "step": "Cut onions in 1/8 inch thick slices"
+                    },
+                    {
+                        "step": "Cut jalepenos into slices"
+                    }
+                ]
+            },
+            {
+                "step": "Pan Cook Turkey",
                 "substeps": [
                     {
                         "step": "Set pan to medium"
@@ -42,7 +80,7 @@
                 ]
             },
             {
-                "step": "Pan cook veggies",
+                "step": "Pan Cook Veggies",
                 "substeps": [
                     {
                         "step": "Throw veggies in with turkey on low"
@@ -53,24 +91,24 @@
                 ]
             },
             {
-                "step": "Make crunchwrap",
+                "step": "Make Crunchwrap",
                 "substeps": [
                     {
                         "step": "Set veggies down on tortilla"
                     },
                     {
-                        "step": "Place tostada on top"
+                        "step": "Place tostada on top of veggies"
                     },
                     {
                         "step": "Place meat and cheese on top of tostada"
                     },
                     {
-                        "step": "Fold tortilla over"
+                        "step": "Take the edge of the tortilla closest to you and fold it over the top of the tostada. Spin the plate 1/8th of a turn and repeat. Continue around the tortilla until all sides are folded."
                     }
                 ]
             },
             {
-                "step": "Fry crunchwrap",
+                "step": "Fry Crunchwrap",
                 "substeps": [
                     {
                         "step": "Set stove on medium with a bit of olive oil in the pan"
@@ -92,7 +130,7 @@
                 ]
             }
         ],
-        "background": "Yale house staple",
+        "background": "Yale House Staple",
         "image": "crunchwrap",
         "gallery": [
             "crunchwrap",
@@ -102,66 +140,714 @@
     },
     {
         "id": "2",
-        "name": "Chicken Enchiladas",
-        "chef": "Luke Mason",
-        "cuisine": "Mexican",
-        "tt": "1 hour",
-        "at": "1 hour",
+        "name": "One Pot Pasta",
+        "chef": "Yacine Guermali",
+        "cuisine": "Italian",
+        "tt": "30 minutes",
+        "at": "10 minutes",
         "instructions": [
             {
-                "step": "Boil chicken"
+                "step": "Ingredients",
+                "substeps": [
+                    {
+                        "step": "2-3 boneless skinless chicken breasts, diced into bite sized pieces",
+                    },
+                    {
+                        "step": "1 tsp Italian seasoning"
+                    },
+                    {
+                        "step": "1/2 tsp garlic powde"
+                    },
+                    {
+                        "step": "1 medium yellow onion, minced"
+                    },
+                    {
+                        "step": "3 cloves garlic, minced"
+                    },
+                    {
+                        "step": "16 oz dried short-cut pasta (I used rigatoni)"
+                    },
+                    {
+                        "step": "24 oz jar of your favorite marinara sauce (I used Newman's Own)"
+                    },
+                    {
+                        "step": "water to fill empty marinara sauce jar"
+                    },
+                    {
+                        "step": "1 cup mozzarella cheese"
+                    },
+                    {
+                        "step": "1/2 cup parmesan cheese"
+                    },
+                    {
+                        "step": "salt and pepper, to taste"
+                    },
+                    {
+                        "step": "additional dried Italian seasoning, optional"
+                    },
+                    {
+                        "step": "fresh parsley and/or basil, minced for garnish"
+                    }
+                ]
             },
             {
-                "step": "Fry tortillas"
+                "step": "Base",
+                "substeps": [
+                    {
+                        "step": "To a large pot or skillet (I used my dutch oven), add a drizzle of olive oil and heat over MED-HIGH heat.",
+                    },
+                    {
+                        "step": "Add chicken, season with salt, pepper, Italian seasoning and garlic powder."
+                    },
+                    {
+                        "step": "Cook about 5 minutes, until chicken is most of the way cooked through."
+                    },
+                    {
+                        "step": "Remove to a plate"
+                    }
+                ]
             },
             {
-                "step": "Make enchiladas"
+                "step": "Spices and Sauce",
+                "substeps": [
+                    {
+                        "step": "Add onion and garlic to the pot and cook about 2-3 minutes, until soft."
+                    },
+                    {
+                        "step": "Pour in marinara sauce, fill up empty sauce jar with water and add to the pot."
+                    },
+                    {
+                        "step": "Bring to a boil, then reduce to a strong simmer."
+                    }
+                ]
             },
             {
-                "step": "Pour sauce"
+                "step": "Combine",
+                "substeps": [
+                    {
+                        "step": "Add chicken and pasta, stir, then cover and cook for 10-15 minutes, until pasta is cooked to your liking."
+                    },
+                    {
+                        "step": "Stir in parmesan cheese and 1/4 cup of the mozzarella cheese."
+                    }
+                ]
             },
             {
-                "step": "Bake"
+                "step": "Add Cheese",
+                "substeps": [
+                    {
+                        "step": "Sprinkle remaining 3/4 cup mozzarella cheese on top of the dish and cook another 2-3 minutes, until cheese is melted and gooey."
+                    }
+                ]
             },
             {
-                "step": "Serve"
+                "step": "Serve",
+                "substeps": [
+                    {
+                        "step": "Sprinkle with additional Italian seasoning if desired, and garnish with parsley or basil"
+                    }
+                ]
             }
         ],
-        "background": "Mason family recipe",
-        "image": "enchiladas",
+        "background": "The Chunky Chef recipe",
+        "image": "onepot",
         "gallery": [
-            "image-1",
-            "image-2",
-            "image-3"
+            "onepot",
+            "onepot_2",
+            "onepot_3",
+            "onepot_4"
         ]
     },
     {
         "id": "3",
-        "name": "Chicken Curry",
+        "name": "Curry",
         "chef": "Ben Hogan",
         "cuisine": "Thai",
         "tt": "4 hours",
         "at": "30 minutes",
         "instructions": [
             {
-                "step": "Cut veggies"
+                "step": "Ingredients",
+                "substeps": [
+                    {
+                        "step": "Olive Oil",
+                    },
+                    {
+                        "step": "1 bag of carrot chips"
+                    },
+                    {
+                        "step": "1 1/2 lb small red potatoes"
+                    },
+                    {
+                        "step": "1 white onion"
+                    },
+                    {
+                        "step": "1 spice jar of curry powder"
+                    },
+                    {
+                        "step": "red pepper flakes"
+                    },
+                    {
+                        "step": "2 lb chicken breasts"
+                    },
+                    {
+                        "step": "2 cans coconut milk (found usually in the asian foods)"
+                    },
+                    {
+                        "step": "A couple cartons of chicken broth or your Better than Bullion (making 1-6 cups depending on if you are using it for your rice) \n\nYou can always just use water for your rice; it's just a little better with broth"
+                    },
+                    {
+                        "step": "White rice (I like basmati or jasmine)"
+                    }
+                ]
             },
             {
-                "step": "Saute veggies"
+                "step": "Saute veggies",
+                "substeps": [
+                    {
+                        "step": "In as big of a fry pan as you have, saute with med/high heat: \n\n-Couple tbls olive oil \n-Bag of carrot chips \n-1 white onion, chopped big \n-1.5 lbs or so of small red potatoes, cut in half or quartered (bit sized)"
+                    },
+                    {
+                        "step": "Throw in some fresh minced garlic if you have it \n-1/3 to half of a spice jar of curry powder \n-Some red pepper flakes \n-Salt and pepper"
+                    }
+                ]
             },
             {
-                "step": "Put food in crockpot"
+                "step": "Add base",
+                "substeps": [
+                    {
+                        "step": "Once browned and cooked a little, add: \n\n-A couple lbs of chicken, cut into bite sized pieces \n-2 cans coconut milk (full fat) \n-A cup or 2 of chicken broth (see below) or \n-1 tsp of Better than Bullion + a cup of water \n-Just mix it in the pan!"
+                    },
+                    {
+                        "step": "Mix all up and let simmer for 30 min or so, while making white rice"
+                    }
+                ]
             },
             {
-                "step": "Serve"
+                "step": "Make Rice",
+                "substeps": [
+                    {
+                        "step": "1 cup dried rice to 2 cups of water or chicken broth"
+                    }
+                ]
+            },
+            {
+                "step": "Serve",
+                "substeps": [
+                    {
+                        "step": "Serve in bowls"
+                    }
+                ]
             }
         ],
-        "background": "Hogan family recipe",
+        "background": "Hogan Family Recipe",
         "image": "curry",
         "gallery": [
-            "image-1",
-            "image-2",
-            "image-3"
+            "curry"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Chicken Gyro",
+        "chef": "Matt Roberts",
+        "cuisine": "Greek",
+        "tt": "4 hours",
+        "at": "30 minutes",
+        "instructions": [
+            {
+                "step": "Ingredients",
+                "substeps": [
+                    {
+                        "step": "Pitta (makes 8)\n\n-250ml water (warm)\n-8g dry active yeast\n-0.75 tbsp caster sugar\n-400g bread flour\n-0.75 tbsp fine sea salt\n-2 tbsp extra-virgin olive oil"
+                    },
+                    {
+                        "step": "Chicken (8 pitas)\n\n-5 tbsp olive oil\n-1 tbsp dried oregano\n-2 tsp smoked paprika\n-1 tsp cumin\n-1 tablespoon lemon juice\n-2 clove of garlic, minced\n-1 tsp honey\n-Salt and pepper\n-800g boneless chicken thighs\n-1 red onion (cut into rings)"
+                    },
+                    {
+                        "step": "Tzatziki (2 cups)\n\n-Half a large cucumber\n-1.5 cups Greek yoghurt\n-2 tbsps olive oil\n-1 tbsp white wine vinegar\n-2 garlic cloves (minced)\n-Salt (to taste)\n-Small bunch, roughly 1 tbsp dill (minced)"
+                    }
+                ]
+            },
+            {
+                "step": "Pittas",
+                "substeps": [
+                    {
+                        "step": "In a jug, mix together the water, yeast and caster sugar. Leave to sit for 10 minutes to bloom the yeast (will turn bubbly)."
+                    },
+                    {
+                        "step": "In a new bowl mix together the bread flour and sea salt. Once the yeast mixture has rested, tip this into the flour with the olive oil and mix. Once roughly incorporated (before kneading) leave the dough to rest for 20 minutes to hydrate the flour."
+                    },
+                    {
+                        "step": "After resting, knead the dough for roughly 10 minutes until smooth and elastic. Cover the dough and rest until doubled in size (roughly 2 hours)."
+                    },
+                    {
+                        "step": "Once risen, knock the air out of the dough and tip out onto a clean work surface. Divide the dough into 8 portions, cover with a damp towel, and leave to rest for 1 hour"
+                    },
+                    {
+                        "step": "Once rested, roll each portion out into a circle, until 1/2 inch thick. Dimple one side with your fingers."
+                    },
+                    {
+                        "step": "To cook, heat up a cast iron pan over a medium-high heat. Lightly grease the bottom of the pan with olive oil. Once up to temperature, place the pita into the pan and cook for roughly 1 minute on each side. Once cooked, set aside and cover with a damp tea towel until ready to serve."
+                    }
+                ]
+            },
+            {
+                "step": "Chicken",
+                "substeps": [
+                    {
+                        "step": "In a bowl, mix together the oil, oregano, paprika, cumin, lemon juice, garlic, honey and salt and pepper to season. Once combined, add the red onion rings and chicken thighs. Cover and leave to marinate for at least 2 hours."
+                    },
+                    {
+                        "step": "To cook, place the whole chicken thighs onto 3 skewers, alternating layers between chicken and onion. Cook for 30-40 mins under a grill of 200 degrees celsius, constantly turning, until the chicken is completely cooked through. We are looking for a nice bit of charring and colour on the outside of the chicken, whilst staying moist and juicy on the inside."
+                    },
+                    {
+                        "step": "Once cooked, from the chicken from the grill, rest for 10 minutes before carving off the skewers."
+                    }
+                ]
+            },
+            {
+                "step": "Tzatziki",
+                "substeps": [
+                    {
+                        "step": "Cut the cucumber in half and remove any seeds. Grate the cucumber then tip into a cheesecloth and squeeze out as much excess moisture as you can. Place the cucumber into a colander and leave to drain overnight."
+                    },
+                    {
+                        "step": "In a new bowl mix together the yoghurt, garlic, oil, vinegar and salt to taste. Refrigerate and leave overnight. This is step is key - by allowing this to sit overnight in the fridge the strong taste of raw garlic will mellow out. "
+                    },
+                    {
+                        "step": "To serve the next day, combine the yoghurt mixture, strained cucumber and fresh dill."
+                    }
+                ]
+            },
+            {
+                "step": "Serve",
+                "substeps": [
+                    {
+                        "step": "Grab yourself a freshly made pitta and add a nice layer of tzatziki onto the bumpy side of the bread. Add a generous portion of your meat, some thinly sliced red onions and tomatoes, and some fresh french fries. Sprinkle with some dried oregano and wrap. Enjoy!"
+                    }
+                ]
+            }
+        ],
+        "background": "Samseatsonline.com recipe",
+        "image": "gyro",
+        "gallery": [
+            "gyro"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Chickpea Curry",
+        "chef": "Sam McCloughan",
+        "cuisine": "Thai",
+        "tt": "4 hours",
+        "at": "30 minutes",
+        "instructions": [
+            {
+                "step": "Ingredients",
+                "substeps": [
+                    {
+                        "step": "2 tablespoons vegetable oil or coconut oil"
+                    },
+                    {
+                        "step": "1 medium onion, sliced"
+                    },
+                    {
+                        "step": "3 cloves garlic, minced"
+                    },
+                    {
+                        "step": "1/4 teaspoon crushed red pepper flakes"
+                    },
+                    {
+                        "step": "2 1–2 tablespoons curry powder"
+                    },
+                    {
+                        "step": "1 teaspoon cumin"
+                    },
+                    {
+                        "step": "1 (15 ounce) can crushed tomatoes"
+                    },
+                    {
+                        "step": "1 (13.5 ounce) can coconut milk"
+                    },
+                    {
+                        "step": "2 (15 ounce) cans chickpeas, drained and rinsed"
+                    },
+                    {
+                        "step": "Salt and pepper, to taste"
+                    },
+                    {
+                        "step": "Chopped fresh cilantro and lime wedges, for garnish (optional)"
+                    },
+                    {
+                        "step": "Naan bread and rice, to serve (optional)"
+                    }
+                ]
+            },
+            {
+                "step": "Veggies",
+                "substeps": [
+                    {
+                        "step": "In a large, heavy bottomed pot or high-walled pan, heat the oil over medium-low."
+                    },
+                    {
+                        "step": "Add the sliced onion, garlic, and crushed red pepper to the pot."
+                    },
+                    {
+                        "step": "Cook, stirring occasionally, until the onion is softened and deep golden, about 15 minutes."
+                    },
+                    {
+                        "step": "Add a tablespoon of water at a time if the onions get dry."
+                    }
+                ]
+            },
+            {
+                "step": "Spices",
+                "substeps": [
+                    {
+                        "step": "Increase the heat to medium."
+                    },
+                    {
+                        "step": "Add the curry powder and cumin and stir until toasted, about 1 minute."
+                    },
+                    {
+                        "step": "Add the crushed tomatoes and gently scrape the bottom of the pan with a wooden or rubber spoon to release the any browned spices or onions stuck to the bottom."
+                    }
+                ]
+            },
+            {
+                "step": "Base",
+                "substeps": [
+                    {
+                        "step": "Pour in the coconut milk and add the chickpeas the pot."
+                    },
+                    {
+                        "step": "Stir and reduce to low heat."
+                    },
+                    {
+                        "step": "Let simmer until the sauce is thickened and the chickpeas are slightly softened, about 10 minutes, stirring occasionally."
+                    },
+                    {
+                        "step": "Season with salt and pepper to taste, and adjust other seasonings as necessary."
+                    }
+                ]
+            },
+            {
+                "step": "Serve",
+                "substeps": [
+                    {
+                        "step": "Garnish with chopped cilantro"
+                    },
+                    {
+                        "step": "Serve with lime wedges over basmati rice and/or with naan."
+                    }
+                ]
+            }
+        ],
+        "background": "hostthetoast.com recipe",
+        "image": "chickpea_curry_2",
+        "gallery": [
+            "chickpea_curry",
+            "chickpea_curry_2",
+            "chickpea_curry_3",
+            "chickpea_curry_4"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "World's Best Lasagna",
+        "chef": "Cullen McEachern",
+        "cuisine": "Italian",
+        "tt": "4 hours",
+        "at": "30 minutes",
+        "instructions": [
+            {
+                "step": "Ingredients",
+                "substeps": [
+                    {
+                        "step": "1 pound sweet Italian sausage"
+                    },
+                    {
+                        "step": "¾ pound lean ground beef"
+                    },
+                    {
+                        "step": "½ cup minced onion"
+                    },
+                    {
+                        "step": "2 cloves garlic, crushed"
+                    },
+                    {
+                        "step": "1 (28 ounce) can crushed tomatoes"
+                    },
+                    {
+                        "step": "2 (6 ounce) cans tomato paste"
+                    },
+                    {
+                        "step": "2 (6.5 ounce) cans canned tomato sauce"
+                    },
+                    {
+                        "step": "½ cup water"
+                    },
+                    {
+                        "step": "2 tablespoons white sugar"
+                    },
+                    {
+                        "step": "1 ½ teaspoons dried basil leaves"
+                    },
+                    {
+                        "step": "½ teaspoon fennel seeds"
+                    },
+                    {
+                        "step": "1 teaspoon Italian seasoning"
+                    },
+                    {
+                        "step": "1 ½ teaspoons salt, divided, or to taste"
+                    },
+                    {
+                        "step": "¼ teaspoon ground black pepper"
+                    },
+                    {
+                        "step": "4 tablespoons chopped fresh parsley"
+                    },
+                    {
+                        "step": "12 lasagna noodles"
+                    },
+                    {
+                        "step": "16 ounces ricotta cheese"
+                    },
+                    {
+                        "step": "1 egg"
+                    },
+                    {
+                        "step": "¾ pound mozzarella cheese, sliced"
+                    },
+                    {
+                        "step": "¾ cup grated Parmesan cheese"
+                    }
+                ]
+            },
+            {
+                "step": "Base",
+                "substeps": [
+                    {
+                        "step": "In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned."
+                    },
+                    {
+                        "step": "Stir in crushed tomatoes, tomato paste, tomato sauce, and water."
+                    },
+                    {
+                        "step": "Season with sugar, basil, fennel seeds, Italian seasoning, 1 teaspoon salt, pepper, and 2 tablespoons parsley."
+                    },
+                    {
+                        "step": "Simmer, covered, for about 1 1/2 hours, stirring occasionally."
+                    }
+                ]
+            },
+            {
+                "step": "Noodles",
+                "substeps": [
+                    {
+                        "step": "Bring a large pot of lightly salted water to a boil."
+                    },
+                    {
+                        "step": "Cook lasagna noodles in boiling water for 8 to 10 minutes."
+                    },
+                    {
+                        "step": "Drain noodles, and rinse with cold water."
+                    },
+                    {
+                        "step": "In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt."
+                    },
+                    {
+                        "step": "Preheat oven to 375 degrees F (190 degrees C)."
+                    }
+                ]
+            },
+            {
+                "step": "Assemble Dish",
+                "substeps": [
+                    {
+                        "step": "To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish."
+                    },
+                    {
+                        "step": "Arrange 6 noodles lengthwise over meat sauce."
+                    },
+                    {
+                        "step": "Spread with one half of the ricotta cheese mixture."
+                    },
+                    {
+                        "step": "Top with a third of mozzarella cheese slices."
+                    },
+                    {
+                        "step": "Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese."
+                    },
+                    {
+                        "step": "Repeat layers, and top with remaining mozzarella and Parmesan cheese."
+                    },
+                    {
+                        "step": "Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese."
+                    }
+                ]
+            },
+            {
+                "step": "Bake",
+                "substeps": [
+                    {
+                        "step": "Bake in preheated oven for 25 minutes."
+                    },
+                    {
+                        "step": "Remove foil, and bake an additional 25 minutes."
+                    },
+                    {
+                        "step": "Cool for 15 minutes before serving."
+                    }
+                ]
+            }
+        ],
+        "background": "hostthetoast.com recipe",
+        "image": "lasagna",
+        "gallery": [
+            "lasagna",
+            "lasagna_2",
+            "lasagna_3",
+            "lasagna_4"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Carne Asada Tacos",
+        "chef": "Dom Arce",
+        "cuisine": "Mexican",
+        "tt": "4 hours",
+        "at": "30 minutes",
+        "instructions": [
+            {
+                "step": "Ingredients",
+                "substeps": [
+                    {
+                        "step": "2-4 lbs Skirt/Flank Steak"
+                    },
+                    {
+                        "step": "White Onion"
+                    },
+                    {
+                        "step": "Cotija cheese"
+                    },
+                    {
+                        "step": "1 cup fresh Cilantro"
+                    },
+                    {
+                        "step": "Chile Verde Salsa (La Victoria Works"
+                    },
+                    {
+                        "step": "Salt"
+                    },
+                    {
+                        "step": "Pepper"
+                    },
+                    {
+                        "step": "Cumin"
+                    },
+                    {
+                        "step": "Smoked Paprika"
+                    },
+                    {
+                        "step": "3/4 cup Orange Juice"
+                    },
+                    {
+                        "step": "4 limes"
+                    },
+                    {
+                        "step": "4 cloves garlic crushed"
+                    },
+                    {
+                        "step": "Vegetable oil"
+                    },
+                    {
+                        "step": "1 jalapeno"
+                    },
+                    {
+                        "step": "2 tablespoons white vinegar"
+                    }
+                ]
+            },
+            {
+                "step": "Prep",
+                "substeps": [
+                    {
+                        "step": "1 day before you plan to make the tacos, create the marinade that the meat will sit in for 24 hours prior to cooking. "
+                    }
+                ]
+            },
+            {
+                "step": "Marinade",
+                "substeps": [
+                    {
+                        "step": "In a gallon size resealable bag or deep dish, combine juice of 2 limes, crushed garlic, orange juice, 1/2 cup chopped cilantro, salt, pepper, cumin, paprika, vegetable oil, jalapeno, and vinegar. Squeeze it around to mix it up."
+                    },
+                    {
+                        "step": "Put the entire flank steak into the resealable bag or dish. Seal it up tight. Make sure all the meat is exposed to the marinade, squishing the bag around to coat. Refrigerate for at least 2 hours, or up to 24 hours. "
+                    }
+                ]
+            },
+            {
+                "step": "Taco Prep",
+                "substeps": [
+                    {
+                        "step": "Dice white onions, set aside in a bowl"
+                    },
+                    {
+                        "step": "Chop remaining cilantro"
+                    },
+                    {
+                        "step": "Crumble cotija cheese into a bowl"
+                    },
+                    {
+                        "step": "Cut up remaining limes into wedges"
+                    },
+                    {
+                        "step": "Bowl the salsa verde"
+                    },
+                    {
+                        "step": "Plate, or hand-prepare thin corn tortillas "
+                    }
+                ]
+            },
+            {
+                "step": "Cooking the steak",
+                "substeps": [
+                    {
+                        "step": "Heat an outdoor grill to high heat"
+                    },
+                    {
+                        "step": "Remove the flank steak from the marinade, and discard excess marinade. Cook on the grill for 7 to 10 minutes per side. DO NOT OVER COOK"
+                    },
+                    {
+                        "step": "Once rare-medium rare, remove from heat and let rest 10 minutes. Slice against the grain, cut into pieces appropriate for a taco"
+                    }
+                ]
+            },
+            {
+                "step": "Serving",
+                "substeps": [
+                    {
+                        "step": "2 tacos per plate, optional serve with rice or other side"
+                    },
+                    {
+                        "step": "Set up bowls of chopped ingredients, allowing guests to construct their own tacos and combine ingredients how they like"
+                    },
+                    {
+                        "step": "Add cotija cheese, salsa verde, and squeeze lime wedge on last"
+                    },
+                    {
+                        "step": "Best served with a cold cerveza 🍺"
+                    }
+                ]
+            }
+        ],
+        "background": "From the memory of Dom Arce",
+        "image": "carne",
+        "gallery": [
+            "carne"
         ]
     }
 ]

@@ -10,6 +10,7 @@
 		9A015E6F2795AB0A00F97DCE /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A015E6E2795AB0A00F97DCE /* Instructions.swift */; };
 		9A015E722795B01B00F97DCE /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A015E712795B01B00F97DCE /* CheckboxStyle.swift */; };
 		9A015E782795B17800F97DCE /* StepRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A015E772795B17800F97DCE /* StepRowView.swift */; };
+		9A31144827A1F3FE00143C49 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A31144727A1F3FD00143C49 /* Launch Screen.storyboard */; };
 		9A4F9894279467F90008DB01 /* BaldwinDinnersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F9893279467F90008DB01 /* BaldwinDinnersApp.swift */; };
 		9A4F9896279467F90008DB01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F9895279467F90008DB01 /* ContentView.swift */; };
 		9A4F9898279467FB0008DB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F9897279467FB0008DB01 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		9A015E6E2795AB0A00F97DCE /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
 		9A015E712795B01B00F97DCE /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 		9A015E772795B17800F97DCE /* StepRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepRowView.swift; sourceTree = "<group>"; };
+		9A31144727A1F3FD00143C49 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9A4F9890279467F90008DB01 /* BaldwinDinners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaldwinDinners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4F9893279467F90008DB01 /* BaldwinDinnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaldwinDinnersApp.swift; sourceTree = "<group>"; };
 		9A4F9895279467F90008DB01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		9A4F9892279467F90008DB01 /* BaldwinDinners */ = {
 			isa = PBXGroup;
 			children = (
+				9A31144727A1F3FD00143C49 /* Launch Screen.storyboard */,
 				9A015E702795B00F00F97DCE /* Style */,
 				9A015E6D2794D6F400F97DCE /* Info.plist */,
 				9A4F98A927946DAC0008DB01 /* Utility */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A31144827A1F3FE00143C49 /* Launch Screen.storyboard in Resources */,
 				9A4F989B279467FB0008DB01 /* Preview Assets.xcassets in Resources */,
 				9A4F98A6279469030008DB01 /* recipes.json in Resources */,
 				9A4F9898279467FB0008DB01 /* Assets.xcassets in Resources */,
@@ -399,9 +403,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BaldwinDinners/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BLDWN DNRS";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -429,9 +435,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BaldwinDinners/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BLDWN DNRS";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

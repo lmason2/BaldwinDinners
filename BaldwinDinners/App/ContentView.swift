@@ -44,12 +44,6 @@ struct ContentView: View {
                         } //: LOOP
                     }
                 } //: LIST
-                .scaleEffect(scaleValue)
-                .onAppear {
-                    withAnimation(.easeIn(duration: 0.5)) {
-                        scaleValue = 1
-                    }
-                }
             } //: GROUP
             .navigationBarTitle(setting.rawValue, displayMode: .large)
             .toolbar {

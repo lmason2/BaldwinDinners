@@ -8,5 +8,15 @@
         "id": "2",
         "name": "Thai",
         "image": "thai-flag"
+    },
+    {
+        "id": "3",
+        "name": "Greek",
+        "image": "greece-flag"
+    },
+    {
+        "id": "4",
+        "name": "Italian",
+        "image": "italian-flag"
     }
 ]
